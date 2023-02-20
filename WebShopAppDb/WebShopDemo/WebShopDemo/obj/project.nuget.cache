@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/kAQx7Z5Wphg2ULlLwQoEOiL7IjjB6WCjzw/h0+B6LyFXRElpQXx87GQDfUjEY8YJm0jWw5TcNUIZot1EsDNdg==",
+  "dgSpecHash": "uXjDSwufTmcs2glCnh7UbHd6RwSMOXMvPZK9UYXySjNZO67bkCmnBuvnMRDsFUmT5igWQc5i8xREqpIe2gPH4Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Student\\Documents\\martiparti\\WebShopAppDb\\WebShopDemo\\WebShopDemo\\WebShopDemo.csproj",
+  "projectFilePath": "C:\\Users\\Student\\Documents\\martiparti\\WebShopDemo\\WebShopAppDb\\WebShopDemo\\WebShopDemo\\WebShopDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Student\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
