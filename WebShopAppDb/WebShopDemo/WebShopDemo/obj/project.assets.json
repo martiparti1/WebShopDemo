@@ -9373,23 +9373,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Student\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\coding stuff\\webshopdemo\\webshopdemo\\WebShopAppDb\\WebShopDemo\\WebShopDemo\\WebShopDemo.csproj",
+      "projectUniqueName": "C:\\Users\\Student\\Documents\\martiparti\\WebShopDemo\\WebShopDemo\\WebShopAppDb\\WebShopDemo\\WebShopDemo\\WebShopDemo.csproj",
       "projectName": "WebShopDemo",
-      "projectPath": "D:\\coding stuff\\webshopdemo\\webshopdemo\\WebShopAppDb\\WebShopDemo\\WebShopDemo\\WebShopDemo.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\coding stuff\\webshopdemo\\webshopdemo\\WebShopAppDb\\WebShopDemo\\WebShopDemo\\obj\\",
+      "projectPath": "C:\\Users\\Student\\Documents\\martiparti\\WebShopDemo\\WebShopDemo\\WebShopAppDb\\WebShopDemo\\WebShopDemo\\WebShopDemo.csproj",
+      "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Student\\Documents\\martiparti\\WebShopDemo\\WebShopDemo\\WebShopAppDb\\WebShopDemo\\WebShopDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9458,12 +9459,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.14, 5.0.14]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -9472,7 +9467,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
       }
     }
   }
