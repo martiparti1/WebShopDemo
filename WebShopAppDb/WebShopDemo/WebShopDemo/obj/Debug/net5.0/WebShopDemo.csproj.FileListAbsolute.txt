@@ -2176,3 +2176,7 @@ C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebSh
 C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\WebShopDemo.Views.pdb
 C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\WebShopDemo.csproj.CopyComplete
 C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\WebShopDemo.genruntimeconfig.cache
+D:\coding stuff\webshopdemo\webshopdemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Product\Create.cshtml.g.cs
+D:\coding stuff\webshopdemo\webshopdemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
+D:\coding stuff\webshopdemo\webshopdemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Product\Edit.cshtml.g.cs
+D:\coding stuff\webshopdemo\webshopdemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Product\Details.cshtml.g.cs
