@@ -2180,3 +2180,8 @@ D:\coding stuff\webshopdemo\webshopdemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj
 D:\coding stuff\webshopdemo\webshopdemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
 D:\coding stuff\webshopdemo\webshopdemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Product\Edit.cshtml.g.cs
 D:\coding stuff\webshopdemo\webshopdemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Product\Details.cshtml.g.cs
+C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Product\Create.cshtml.g.cs
+C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Product\Details.cshtml.g.cs
+C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Product\Edit.cshtml.g.cs
+C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Product\Delete.cshtml.g.cs
