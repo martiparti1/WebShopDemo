@@ -16,13 +16,13 @@ namespace WebShopDemo.Controllers
     [Authorize(Roles="Administrator")]
     public class ProductController : Controller
     {
-        private readonly IProductService _productService;
+        private readonly IProductService productService;
         private readonly ICategoryService _categoryService;
         private readonly IBrandService _brandService;
 
         public ProductController(IProductService productService, ICategoryService categoryService, IBrandService brandService)
         {
-            _productService = productService;
+            this.productService = productService;
             _categoryService = categoryService;
             _brandService = brandService;
         }
@@ -30,7 +30,7 @@ namespace WebShopDemo.Controllers
         [AllowAnonymous]
         public ActionResult Index(string searchStringCategoryName, string searchStringBrandName)
         {
-            List<ProductIndexVM> products = _productService.GetProducts(searchStringCategoryName, searchStringBrandName)
+            List<ProductIndexVM> products = productService.GetProducts(searchStringCategoryName, searchStringBrandName)
                 .Select(product => new ProductIndexVM
                 { 
                 Id = product.Id,
@@ -70,7 +70,7 @@ namespace WebShopDemo.Controllers
         {
             if(ModelState.IsValid)
             {
-                var createdId = _productService.Create(product.ProductName,
+                var createdId = productService.Create(product.ProductName,
                     product.BrandId, product.CategoryId, product.Picture,
                     product.Quantity, product.Price, product.Discount);
 
@@ -84,7 +84,7 @@ namespace WebShopDemo.Controllers
 
         public ActionResult Edit(int id)
         {
-            Product product = _productService.GetProductById(id);
+            Product product = productService.GetProductById(id);
                 if(product == null)
             { return NotFound(); }
 
@@ -122,7 +122,7 @@ namespace WebShopDemo.Controllers
         {
             if (ModelState.IsValid)
             {
-                var updated = _productService.Update(id, product.ProductName , product.BrandId ,
+                var updated = productService.Update(id, product.ProductName , product.BrandId ,
                     product.CategoryId , product.Picture , product.Quantity ,
                     product.Price , product.Discount );
 
@@ -137,7 +137,7 @@ namespace WebShopDemo.Controllers
         [AllowAnonymous]
         public ActionResult Details(int id)
         {
-            Product item = _productService.GetProductById(id);
+            Product item = productService.GetProductById(id);
             if (item==null)
             {
                 return NotFound();
@@ -160,7 +160,7 @@ namespace WebShopDemo.Controllers
 
         public ActionResult Delete(int id)
         {
-            Product product = _productService.GetProductById(id);
+            Product product = productService.GetProductById(id);
             if(product==null)
             { return NotFound();}
 
@@ -184,7 +184,7 @@ namespace WebShopDemo.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, IFormCollection collection)
         {
-            var deleted = _productService.RemoveById(id);
+            var deleted = productService.RemoveById(id);
             if (deleted)
             {
                 return this.RedirectToAction("Index");

@@ -9,8 +9,8 @@ namespace WebShopDemo.Models.Orders
 {
     public class OrderConfirmVM
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Key]
+        //[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        //[Key]
         public int Id { get; set; }
         [Required]
         public string UserId { get; set; }

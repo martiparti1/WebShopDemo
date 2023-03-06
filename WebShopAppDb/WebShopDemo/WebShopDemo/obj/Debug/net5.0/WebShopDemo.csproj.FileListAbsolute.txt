@@ -2185,3 +2185,7 @@ C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebSh
 C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Product\Edit.cshtml.g.cs
 C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
 C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Product\Delete.cshtml.g.cs
+C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Order\Create.cshtml.g.cs
+C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Order\Index.cshtml.g.cs
+C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Order\MyOrders.cshtml.g.cs
+C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Product\_OrderPartialView.cshtml.g.cs
