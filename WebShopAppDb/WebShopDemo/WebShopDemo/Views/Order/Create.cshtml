@@ -1,13 +1,32 @@
 ﻿@model WebShopDemo.Models.Orders.OrderConfirmVM
-
 @{
-    ViewBag["Title"] = "Confirm";
+    ViewData["Title"] = "Confirm";
 }
+
+<h1>Confirm</h1>
 <form asp-controller="Order" asp-action="Create" method="post">
     <div>
         <h4>OrderConfirmVM</h4>
         <hr />
         <dl class="row">
+            @*<dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.UserId)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.UserId)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.User)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.User)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.ProductId)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.ProductId)
+                </dd>*@
             <dt class="col-sm-2">
                 @Html.DisplayNameFor(model => model.ProductName)
             </dt>
@@ -15,8 +34,11 @@
                 @Html.DisplayFor(model => model.ProductName)
             </dd>
             <dt class="col-sm-2">
-                <img src="@Html.DisplayFor(model=>model.Picture)" alt="Image" width="100" />
+                Picture
             </dt>
+            <dd class="col-sm-10">
+                <img src="@Html.DisplayFor(model => model.Picture)" alt="Image" width="100" />
+            </dd>
             <dt class="col-sm-2">
                 @Html.DisplayNameFor(model => model.Quantity)
             </dt>
@@ -51,12 +73,7 @@
     <input type="hidden" asp-for="UserId" value="@Model.UserId" />
     <input type="hidden" asp-for="Price" value="@Model.Price" />
     <input type="hidden" asp-for="Discount" value="@Model.Discount" />
-
 </form>
 <div>
     <a asp-controller="Product" asp-action="Index">Back to List</a>
 </div>
-@section Scripts{
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}

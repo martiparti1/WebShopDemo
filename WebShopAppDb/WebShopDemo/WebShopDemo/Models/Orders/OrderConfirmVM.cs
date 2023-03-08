@@ -9,8 +9,8 @@ namespace WebShopDemo.Models.Orders
 {
     public class OrderConfirmVM
     {
-        //[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        //[Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Key]
         public int Id { get; set; }
         [Required]
         public string UserId { get; set; }
@@ -20,8 +20,8 @@ namespace WebShopDemo.Models.Orders
         public string ProductName { get; set; }
         public string Picture { get; set; }
         [Required]
-        [Range(1,int.MaxValue)]
-        [Display(Name ="Quantity")]
+        [Range(1, int.MaxValue)]
+        [Display(Name = "Quantity")]
         public int Quantity { get; set; }
         public decimal Price { get; set; }
         public decimal Discount { get; set; }
