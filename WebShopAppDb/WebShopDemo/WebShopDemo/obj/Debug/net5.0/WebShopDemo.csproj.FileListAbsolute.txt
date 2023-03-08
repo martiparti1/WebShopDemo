@@ -2189,3 +2189,6 @@ C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebSh
 C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Order\Index.cshtml.g.cs
 C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Order\MyOrders.cshtml.g.cs
 C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Product\_OrderPartialView.cshtml.g.cs
+C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Client\Index.cshtml.g.cs
+C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Client\Delete.cshtml.g.cs
+C:\Users\Student\Documents\martiparti\WebShopDemo\WebShopDemo\WebShopAppDb\WebShopDemo\WebShopDemo\obj\Debug\net5.0\Razor\Views\Client\SuccessDeleteUser.cshtml.g.cs
